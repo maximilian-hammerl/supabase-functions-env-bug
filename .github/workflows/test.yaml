@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: supabase/setup-cli@v1
         with:
-          version: 1.17.1
+          version: 2.17.1
       - run: supabase start
         working-directory: supabase
       - run: ./test.sh
